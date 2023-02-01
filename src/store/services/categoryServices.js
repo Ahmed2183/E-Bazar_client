@@ -7,7 +7,7 @@ const categoryServices = createApi({
     tagTypes: 'categories', //Give unique name
 
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:5000',
+        baseUrl: 'https://adorable-shoulder-pads-bear.cyclic.app/',
         //With the help of prepareHeaders we set token inside the API headers
         // prepareHeaders takes 2 argument headers,state
         prepareHeaders: (headers, { getState }) => {

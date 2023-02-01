@@ -4,7 +4,7 @@ const productServices = createApi({
     reducerPath: 'products',
     tagTypes: 'products',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:5000',
+        baseUrl: 'https://adorable-shoulder-pads-bear.cyclic.app/',
 
         prepareHeaders: (headers, { getState }) => {
 

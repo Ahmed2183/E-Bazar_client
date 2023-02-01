@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const homeProductServices = createApi({
     reducerPath: 'homeProducts',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:5000',
+        baseUrl: 'https://adorable-shoulder-pads-bear.cyclic.app/',
     }),
 
     endpoints: (builder) => {

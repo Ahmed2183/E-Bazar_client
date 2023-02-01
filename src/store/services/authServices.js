@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 const authServices = createApi({
     reducerPath: 'auth',  //auth is key, We add key in reducerPath, use any name in key see this key name in Redux dev tool extension in google
     baseQuery: fetchBaseQuery({ //We add our backend URL in fetchBaseQuery
-        baseUrl: 'http://localhost:5000'  //-->Our backend URL
+        baseUrl: 'https://adorable-shoulder-pads-bear.cyclic.app/'  //-->Our backend URL
     }),
     //For hack API we code inside endpoints function
     endpoints: (builder) => {   //builder is just name you use any name which you want

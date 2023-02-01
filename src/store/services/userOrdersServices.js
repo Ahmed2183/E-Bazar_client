@@ -4,7 +4,7 @@ const userOrdersServices = createApi({
     reducerPath: 'userorders',
     tagTypes: 'orders',
     baseQuery: fetchBaseQuery({
-        baseUrl: 'http://localhost:5000',
+        baseUrl: 'https://adorable-shoulder-pads-bear.cyclic.app/',
 
         /* In prepareHeaders code we gave userToken menas user token kaa bina payment checkout nhi hoga */
         prepareHeaders: (headers, { getState }) => {
